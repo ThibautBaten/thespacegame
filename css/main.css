@@ -1,0 +1,75 @@
+html {
+    background-image: url("../img/ruimte_achtergrond.png");
+    font-family: "Press Start 2P", system-ui ;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    height: 350px;
+    width: auto;
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 450px;
+    max-height: 600px;
+    padding: 2rem;
+    border-radius: 1rem;
+    color: hsl(0, 0%, 100%);
+    border: hsl(5, 84%, 68%) solid 10px;
+    background-color: hsla(287, 66%, 21%, 0.631);
+}
+
+.status {
+    display: flex;
+    justify-content: space-between;
+}
+
+.status p { 
+    text-align: center;
+}
+
+.button {
+    display: block;
+    width: 100%; 
+    margin: 2rem auto; 
+    padding: 1rem;
+    text-align: center; 
+    color: hsl(0, 0%, 100%);
+    background-color: hsla(0, 100%, 50%, 0.855);
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: 5px solid transparent;
+}
+
+.button:hover {
+    background-color: hsl(0, 0%, 88%);
+}
+
+a {
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+}
+
+
+  

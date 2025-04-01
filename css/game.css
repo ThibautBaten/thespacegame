@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-image: url("../img/ruimte_achtergrond.png");
+}
+
+body {
+    font-family: "Press Start 2P", system-ui ;
+}
+
+.rocket {
+    height: 150px;
+    width: 80px;
+    position: absolute;
+    bottom:2rem;
+}
+
+.game-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+@keyframes rotateAnimation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.meteorite {
+    position: absolute;
+    background-size: cover;
+    animation: rotateAnimation 4s linear infinite;
+}
+
+.return {
+    font-family: "Press Start 2P", system-ui ;
+    position: relative;
+    left: 97%;
+    top: 1rem;
+    font-size: 1.5rem;
+    color: hsl(50, 86%, 64%);
+    background-color: hsla(240, 100%, 50%, 0);
+    border: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.score {
+    background-color: hsla(327, 76%, 48%, 0.9);
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 24px;
+    color: hsl(0, 0%, 100%);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+
